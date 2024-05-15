@@ -4,9 +4,13 @@ import { task } from './globarVar'
 import { id } from './globarVar'
 
 const taskItems = JSON.parse(localStorage.getItem('taskItem'))
+const idItems = JSON.parse(localStorage.getItem('idItem'))
 
 if (taskItems) {
     task.value = taskItems
+}
+if (idItems) {
+  id.value = idItems
 }
 
 const taskText = ref(null)
@@ -26,6 +30,7 @@ function addTask() {
     taskText.value = ''
   }
   localStorage.setItem('taskItem', JSON.stringify(task.value))
+  localStorage.setItem('idItem', JSON.stringify(id.value))
 }
 </script>
 
