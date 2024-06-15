@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="logo" @click="home">
+    <div class="logo">
       <b>Tatto<span class="blue">Love</span></b>
     </div>
     <p>Все права защищены ©️</p>

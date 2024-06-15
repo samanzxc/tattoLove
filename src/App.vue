@@ -2,19 +2,12 @@
 import headers from './components/headers.vue'
 import footers from './components/footers.vue'
 
-window.yaContextCb.push(() => {
-  Ya.Context.AdvManager.render({
-    blockId: 'R-A-9146296-1',
-    renderTo: 'yandex_rtb_R-A-9146296-1'
-  })
-})
+
 </script>
 
 <template>
   <div class="wrapp">
     <div class="add__block">
-      <!-- Yandex.RTB R-A-9146296-1 -->
-      <div id="yandex_rtb_R-A-9146296-1"></div>
     </div>
     <div class="container">
       <headers />
