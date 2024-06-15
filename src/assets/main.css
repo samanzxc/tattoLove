@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,9 +7,12 @@
   text-decoration: none;
 }
 body {
-  font-family: 'Inter', sans-serif;
-  --btn-collor: #262626;
-  --btn-active-color: #121212;
+  font-family: "Reddit Sans", sans-serif;
+  --blue-collor: #3D79A7;
+  --teg-color: #CFDAE7;
+  --blue-btn-color: #A7C4E7;
 }
-
+.blue {
+  color: var(--blue-collor);
+}
 
